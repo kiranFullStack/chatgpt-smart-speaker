@@ -125,7 +125,7 @@ def main():
                 triggered = True
         else:
             play_beep()
-            colorWipe(strip, Color(0, 0, 255))  # Blue wipe
+            colorWipe(strip, Color(0, 0, 255))
            # set_led_status()
             triggered = False
             voice_request = listen_for_audio(offline=False)
